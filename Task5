@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main(){
+    int *ptr = NULL;
+    if(ptr == NULL){
+        printf("pointer is NULL:\n");
+    }else{
+        printf("pointer is not NULL:\n");
+    }
+    int a = 7;
+    ptr = &a;
+    printf("result: %d\n", *ptr);
+    return 0;
+}
