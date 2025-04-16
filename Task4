@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main(){
+    int a = 5;
+    int b = 9;
+    printf("a = %d  b = %d\n",a,b);
+    int *ptr = &a;
+    a = b;
+    b = *ptr;
+    printf("a = %d  b = %d\n", a, b);
+    return 0;
+}
